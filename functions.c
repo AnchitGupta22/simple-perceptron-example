@@ -17,25 +17,6 @@ float getInput(FILE * ftp)
   return input;
 }
 
-
-/******************/
-/* GET THRESHOLD  */
-/******************/
-/* Ask the user for a threshold */
-/* Note: for now I won't use this function.
- * Instead of asking the user for the threshold,
- * I'll just define it as a macro.
- */
-float getThreshold(void)
-{
-  float threshold;
-
-  printf("Threshold: ");
-  scanf("%f", &threshold);
-
-  return threshold;
-}
-
 /**********************/
 /* SUM WEIGHTED INPUT */
 /**********************/
