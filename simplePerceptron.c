@@ -1,11 +1,9 @@
 
 /**********************************/
-/* How the data file works:       */
-/* ^Each line is a new set        */
-/* ^the first number is input1    */
-/* ^the second number is input2   */
-/* ^the third number is the class */
-/*     means the end of data      */
+/*    This is the main program    */
+/*       in which a simple        */
+/*         perceptron is          */
+/*          implemented           */
 /**********************************/
 
 #include <stdio.h>
